@@ -35,7 +35,7 @@ private:
     // corresponding tf variables
     t.header.stamp = now;
     t.header.frame_id = "odom";
-    t.child_frame_id = "base_link";
+    t.child_frame_id = "base_footprint";
 
     // Turtle only exists in 2D, thus we get x and y translation
     // coordinates from the message and set the z coordinate to 0
